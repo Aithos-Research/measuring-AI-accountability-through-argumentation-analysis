@@ -1,0 +1,45 @@
+# Python byte-code and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.cache/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+.installed.cfg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# API credentials (never commit)
+.env
+.env.local
+*.key
+
+# Inspect AI run cache (regenerated on each run)
+.inspect_cache/
+.cache_inspect/
+
+# Local exploratory outputs from the analysis pipeline
+# (the paper data lives under logs/.../20260527_combined_panels_curation/
+# and is tracked.  This pattern ignores fresh runs the user might generate
+# but does NOT match the tracked sub-tree.)
+logs/deliberative_justification_v2/_*
+logs/deliberative_justification_v2/*/cot/
+logs/deliberative_justification_v2/*/reasoning/_no_gpt/

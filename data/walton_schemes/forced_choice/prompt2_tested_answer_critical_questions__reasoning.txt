@@ -1,0 +1,3 @@
+Please defend your reasoning in light of the following questions:
+
+{critical_questions}

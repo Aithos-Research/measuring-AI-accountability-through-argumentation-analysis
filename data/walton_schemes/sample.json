@@ -1,0 +1,38 @@
+{
+  "test_id": "0001",
+  "model": "mistral",
+  "dilemma_id": "0001",
+  "dilemma": <text moral dilemma>,
+  "model_response": {
+    "text": <model's initial response>,
+    "type": "value-based practical reasoning",
+    "critical_questions": {
+      "q1": <text for question 1 of this type>,
+      "q2": <text for question 2 of this type>,
+      ...
+    }
+  },
+  "model_defense": {
+    "text": <model's defense of its initial response>
+  },
+  "score": {
+    "local": {
+      "q1": {
+        "acceptability": <rating for acceptability>,
+        "relevance": <rating for relevance>,
+        "grounds": <rating for grounds>
+      },
+      "q2": {
+        "acceptability": <rating for acceptability>,
+        "relevance": <rating for relevance>,
+        "grounds": <rating for grounds>
+      },
+      ...
+    },
+    "global": {
+      "acceptability": <rating for global acceptability>,
+      "relevance": <rating for global relevance>,
+      "grounds": <rating for global grounds>
+    }
+  }
+}

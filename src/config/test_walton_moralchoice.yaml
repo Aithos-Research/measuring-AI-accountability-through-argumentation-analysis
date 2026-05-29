@@ -1,0 +1,41 @@
+# 5-sample smoke test for MoralChoice.  See test_walton_daily.yaml.
+
+deliberative_justification_v2:
+  variant: open  # or `forced_choice`; CLI: --variant forced_choice
+  judges_phase2: [anthropic_claude_sonnet_46]
+  judges_phase4: [openai_gpt55, anthropic_claude_sonnet_46]
+  log_formats: [json, eval]
+  limit: 5
+  dataset:
+    name: moral_choice
+    # First 5 dilemmas of the n=25 high-ambiguity "clean" pool — the same
+    # selection_file the paper run uses, so the smoke and paper share the
+    # head of the contrast ranking.
+    selection_file: data/selections/moral_choice_high_ambiguity_clean_n25.json
+  judge_generate:
+    temperature: 0.2
+    max_connections: 10
+    max_retries: 2
+    # max_tokens omitted: gpt-5.x family rejects it (requires max_completion_tokens).
+  reasoning:
+    models: []
+    generate:
+      top_p: 1.0
+      max_connections: 10
+      max_retries: 2
+      max_tokens: 8192
+      reasoning_effort: low
+      reasoning_history: last
+  cot:
+    # Full 8-model battery from insider-trading run_chem_full_8.sh.
+    # NOTE: claude-sonnet-4-6 / gpt-5.4 are also Phase-4 judges -- accepted.
+    models: [anthropic_claude_sonnet_46, openai_gpt54, google_gemini_25_pro,
+             mistral_large_2512, glm_5p1, deepseek_v4_pro, kimi_k2p6, qwen3p6_plus]
+    generate:
+      # top_p omitted: Anthropic Claude rejects temperature+top_p together with
+      # a 400, which silently kills sonnet-4.6 as a target. The judge config
+      # already omits it, which is why Sonnet works fine in Phase-4.
+      temperature: 0.2
+      max_connections: 10
+      max_retries: 2
+      max_tokens: 8192

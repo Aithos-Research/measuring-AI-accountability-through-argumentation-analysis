@@ -1,0 +1,347 @@
+{
+  "models": [
+    {
+      "family": "OpenAI",
+      "provider": "openai",
+      "entries": [
+        {
+          "alias": "openai_gpt55",
+          "name": "GPT-5.5",
+          "model_id": "openai/gpt-5.5"
+        },
+        {
+          "alias": "openai_gpt54",
+          "name": "GPT-5.4",
+          "model_id": "openai/gpt-5.4"
+        },
+        {
+          "alias": "openai_gpt51",
+          "name": "GPT-5.1",
+          "model_id": "openai/gpt-5.1-2025-11-13"
+        },
+        {
+          "alias": "openai_gpt5",
+          "name": "GPT-5",
+          "model_id": "openai/gpt-5-2025-08-07"
+        },
+        {
+          "alias": "openai_gpt5_mini",
+          "name": "GPT-5-mini",
+          "model_id": "openai/gpt-5-mini"
+        },
+        {
+          "alias": "openai_gpt5_nano",
+          "name": "GPT-5-nano",
+          "model_id": "openai/gpt-5-nano-2025-08-07"
+        },
+        {
+          "alias": "openai_gpt4o",
+          "name": "GPT-4o",
+          "model_id": "openai/gpt-4o-2024-11-20"
+        },
+        {
+          "alias": "openai_gpt41",
+          "name": "GPT-4.1",
+          "model_id": "openai/gpt-4.1"
+        },
+        {
+          "alias": "openai_gpt41_mini",
+          "name": "GPT-4.1 Mini",
+          "model_id": "openai/gpt-4.1-mini"
+        },
+        {
+          "alias": "openai_gpt41_nano",
+          "name": "GPT-4.1-nano",
+          "model_id": "openai/gpt-4.1-nano"
+        },
+        {
+          "alias": "openai_o3_mini",
+          "name": "O3-mini",
+          "model_id": "openai/o3-mini"
+        },
+        {
+          "alias": "openai_text_embedding_3_small",
+          "name": "Text Embedding 3 Small",
+          "model_id": "text-embedding-3-small"
+        }
+      ]
+    },
+    {
+      "family": "Anthropic",
+      "provider": "anthropic",
+      "entries": [
+        {
+          "alias": "anthropic_claude_sonnet_46",
+          "name": "Claude Sonnet 4.6",
+          "model_id": "anthropic/claude-sonnet-4-6"
+        },
+        {
+          "alias": "anthropic_claude_sonnet_45",
+          "name": "Claude Sonnet 4.5",
+          "model_id": "anthropic/claude-sonnet-4-5-20250929"
+        },
+        {
+          "alias": "anthropic_claude_haiku_45",
+          "name": "Claude Haiku 4.5",
+          "model_id": "anthropic/claude-haiku-4-5-20251001"
+        },
+        {
+          "alias": "anthropic_claude_opus_45",
+          "name": "Claude Opus 4.5",
+          "model_id": "anthropic/claude-opus-4-5-20251101"
+        },
+        {
+          "alias": "anthropic_claude_opus_47",
+          "name": "Claude Opus 4.7",
+          "model_id": "anthropic/claude-opus-4-7"
+        }
+      ]
+    },
+    {
+      "family": "Google (Gemini)",
+      "provider": "google",
+      "entries": [
+        {
+          "alias": "google_gemini_3_pro_preview",
+          "name": "Gemini 3 Pro Preview",
+          "model_id": "google/gemini-3-pro-preview"
+        },
+        {
+          "alias": "google_gemini_25_pro",
+          "name": "Gemini 2.5 Pro",
+          "model_id": "google/gemini-2.5-pro"
+        },
+        {
+          "alias": "google_gemini_25_flash",
+          "name": "Gemini 2.5 Flash",
+          "model_id": "google/gemini-2.5-flash"
+        }
+      ]
+    },
+    {
+      "family": "xAI (Grok)",
+      "provider": "xai",
+      "entries": [
+        {
+          "alias": "xai_grok_41_fast_reasoning",
+          "name": "Grok-4.1 Fast Reasoning",
+          "model_id": "xai/grok-4-1-fast-reasoning"
+        },
+        {
+          "alias": "xai_grok_41_fast",
+          "name": "Grok-4.1 Fast Non-Reasoning",
+          "model_id": "xai/grok-4-1-fast-non-reasoning"
+        },
+        {
+          "alias": "xai_grok_4",
+          "name": "Grok-4",
+          "model_id": "xai/grok-4-0709"
+        }
+      ]
+    },
+    {
+      "family": "Mistral",
+      "provider": "mistral",
+      "entries": [
+        {
+          "alias": "mistral_large_2512",
+          "name": "Mistral Large 2512",
+          "model_id": "mistral/mistral-large-2512"
+        },
+        {
+          "alias": "mistral_large",
+          "name": "Mistral Large",
+          "model_id": "mistral/mistral-large-latest"
+        },
+        {
+          "alias": "mistral_medium_3",
+          "name": "Mistral Medium 3",
+          "model_id": "mistral/mistral-medium-latest"
+        },
+        {
+          "alias": "mixtral_8x22b",
+          "name": "Mixtral 8x22B",
+          "model_id": "mistral/open-mixtral-8x22b"
+        }
+      ]
+    },
+    {
+      "family": "Moonshot (Kimi)",
+      "provider": "fireworks",
+      "entries": [
+        {
+          "alias": "kimi_k2_thinking",
+          "name": "Kimi K2 Thinking",
+          "model_id": "fireworks/accounts/fireworks/models/kimi-k2-thinking"
+        },
+        {
+          "alias": "kimi_k2_instruct_0905",
+          "name": "Kimi K2 Instruct 0905",
+          "model_id": "fireworks/accounts/fireworks/models/kimi-k2-instruct-0905"
+        },
+        {
+          "alias": "kimi_k2p5",
+          "name": "Kimi K2.5",
+          "model_id": "fireworks/accounts/fireworks/models/kimi-k2p5"
+        },
+        {
+          "alias": "kimi_k2p6",
+          "name": "Kimi K2.6",
+          "model_id": "fireworks/accounts/fireworks/models/kimi-k2p6"
+        }
+      ]
+    },
+    {
+      "family": "Z.AI (GLM)",
+      "provider": "fireworks",
+      "entries": [
+        {
+          "alias": "glm_5p1",
+          "name": "GLM 5.1",
+          "model_id": "fireworks/accounts/fireworks/models/glm-5p1"
+        }
+      ]
+    },
+    {
+      "family": "Meta (Llama)",
+      "provider": "fireworks",
+      "entries": [
+        {
+          "alias": "llama_32_1b",
+          "name": "Llama 3.2 1B Instruct",
+          "model_id": "fireworks/accounts/fireworks/models/llama-v3p2-1b-instruct"
+        },
+        {
+          "alias": "llama_32_3b",
+          "name": "Llama 3.2 3B Instruct",
+          "model_id": "fireworks/accounts/aithos-sicco/deployments/sc9z9ger"
+        },
+        {
+          "alias": "llama_33_70b",
+          "name": "Llama 3.3 70B Instruct",
+          "model_id": "fireworks/accounts/fireworks/models/llama-v3p3-70b-instruct"
+        },
+        {
+          "alias": "llama_31_405b",
+          "name": "Llama 3.1 405B Instruct",
+          "model_id": "fireworks/accounts/aithos-sicco/deployments/q5uwknrk"
+        },
+        {
+          "alias": "llama_aithos_hc3sp18t",
+          "name": "Llama (aithos-sicco hc3sp18t)",
+          "model_id": "fireworks/accounts/aithos-sicco/deployments/hc3sp18t"
+        }
+      ]
+    },
+    {
+      "family": "Alibaba (Qwen)",
+      "provider": "fireworks",
+      "entries": [
+        {
+          "alias": "qwen25_7b",
+          "name": "Qwen2.5 7B",
+          "model_id": "fireworks/accounts/fireworks/models/qwen2p5-7b-instruct"
+        },
+        {
+          "alias": "qwen25_32b",
+          "name": "Qwen2.5 32B",
+          "model_id": "fireworks/accounts/fireworks/models/qwen2p5-32b-instruct"
+        },
+        {
+          "alias": "qwen25_72b",
+          "name": "Qwen2.5 72B",
+          "model_id": "fireworks/accounts/aithos-sicco/deployments/d230z55a"
+        },
+        {
+          "alias": "qwen3_30b_a3b",
+          "name": "Qwen3 30B A3B Instruct (2507)",
+          "model_id": "fireworks/accounts/fireworks/models/qwen3-30b-a3b-instruct-2507"
+        },
+        {
+          "alias": "qwen3_235b_a22b",
+          "name": "Qwen3 235B A22B Instruct (2507)",
+          "model_id": "fireworks/accounts/fireworks/models/qwen3-235b-a22b-instruct-2507"
+        },
+        {
+          "alias": "qwen3p6_plus",
+          "name": "Qwen3.6 Plus",
+          "model_id": "fireworks/accounts/fireworks/models/qwen3p6-plus"
+        }
+      ]
+    },
+    {
+      "family": "DeepSeek",
+      "provider": "fireworks",
+      "entries": [
+        {
+          "alias": "deepseek_v4_pro",
+          "name": "DeepSeek V4 Pro",
+          "model_id": "fireworks/accounts/fireworks/models/deepseek-v4-pro"
+        },
+        {
+          "alias": "deepseek_v3",
+          "name": "DeepSeek V3",
+          "model_id": "fireworks/accounts/fireworks/models/deepseek-v3"
+        },
+        {
+          "alias": "deepseek_v3p1",
+          "name": "DeepSeek V3.1",
+          "model_id": "fireworks/accounts/fireworks/models/deepseek-v3p1"
+        },
+        {
+          "alias": "deepseek_v3p2",
+          "name": "DeepSeek V3.2",
+          "model_id": "fireworks/accounts/fireworks/models/deepseek-v3p2"
+        },
+        {
+          "alias": "deepseek_r1_fast",
+          "name": "DeepSeek R1 (Fast)",
+          "model_id": "fireworks/accounts/fireworks/models/deepseek-r1-fast"
+        }
+      ]
+    },
+    {
+      "family": "Databricks",
+      "provider": "fireworks",
+      "entries": [
+        {
+          "alias": "dbrx_instruct",
+          "name": "DBRX Instruct",
+          "model_id": "fireworks/accounts/fireworks/models/dbrx-instruct"
+        }
+      ]
+    },
+    {
+      "family": "Nvidia",
+      "provider": "fireworks",
+      "entries": [
+        {
+          "alias": "nemotron_nano_9b",
+          "name": "Nemotron Nano 9B v2",
+          "model_id": "fireworks/accounts/fireworks/models/nemotron-nano-9b-v2"
+        },
+        {
+          "alias": "nemotron_nano_12b",
+          "name": "Nemotron Nano 12B v2",
+          "model_id": "fireworks/accounts/fireworks/models/nemotron-nano-12b-v2"
+        },
+        {
+          "alias": "nemotron4_340b",
+          "name": "Nemotron-4 340B",
+          "model_id": "fireworks/accounts/fireworks/models/nemotron4-340b"
+        }
+      ]
+    },
+    {
+      "family": "Fireworks OSS",
+      "provider": "fireworks",
+      "entries": [
+        {
+          "alias": "gpt_oss_120b",
+          "name": "GPT-OSS 120B",
+          "model_id": "fireworks/accounts/fireworks/models/gpt-oss-120b"
+        }
+      ]
+    }
+  ]
+}

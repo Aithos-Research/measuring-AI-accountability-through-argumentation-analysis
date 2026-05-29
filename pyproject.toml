@@ -1,0 +1,39 @@
+[project]
+name = "measuring-moral-competence"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic>=0.72.0",
+    "datasets>=4.4.1",
+    "inspect-ai>=0.3.144",
+    "lemminflect>=0.2.3",
+    "matplotlib>=3.10.7",
+    "nltk>=3.9.2",
+    "openai>=2.7.1",
+    "pytest>=9.0.2",
+    "pytest-asyncio>=0.23.0",
+    "scikit-learn>=1.7.2",
+    "scipy>=1.16.3",
+    "seaborn>=0.13.2",
+    "spacy>=3.8.11",
+    "statsmodels>=0.14.5",
+    "torch>=2.9.1",
+    "pyyaml>=6.0.2",
+    "mistralai>=1.10.0",
+    "pandas>=2.3.3",
+    "tabulate>=0.9.0",
+    "pip>=25.3",
+]
+
+[tool.ruff]
+# Place linter-specific settings under the `lint` table to avoid deprecation warnings
+line-length = 120
+
+[tool.ruff.lint]
+# Ignore the E701 "multiple statements on one line (colon)" error per user request
+ignore = ["E701"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

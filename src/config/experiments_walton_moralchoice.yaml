@@ -1,0 +1,65 @@
+# Reproduction config for the Walton-schemes paper.
+#
+# Runs the four-phase dialectical protocol on the 200 high-ambiguity
+# MoralChoice dilemmas selected by seed=42 (see
+# data/selections/moralchoice_high_ambiguity_seed42_001-200.json).
+#
+# Two panels are evaluated under the same protocol:
+#   - reasoning-branch panel: 7 models with provider-native thinking
+#     channels (r_int read from the structured reasoning block)
+#   - CoT panel: 2 models without a thinking channel (r_int parsed
+#     from visible pre-<answer> prose)
+#
+# Phase-4 judges are Claude Sonnet 4.6 and GPT 5.4.  Phase-2 (scheme
+# classification + critical-question situating) is judged by Claude
+# Sonnet 4.6 only.
+#
+# Generates one .eval per model.  Subsequent merging into the
+# paper-reported samples.json is done by `scripts/merge_runs.py`.
+
+deliberative_justification_v2:
+  variant: open
+  judges_phase2: [anthropic_claude_sonnet_46]
+  judges_phase4: [anthropic_claude_sonnet_46, openai_gpt54]
+  log_formats: [json, eval]
+  limit: 200
+  dataset:
+    name: moral_choice
+    selection_file: data/selections/moralchoice_high_ambiguity_seed42_001-200.json
+  judge_generate:
+    temperature: 0.2
+    max_connections: 3
+    max_retries: 8
+    # gpt-5.x rejects max_tokens (requires max_completion_tokens),
+    # so it is omitted at this layer.
+
+  reasoning:
+    # Seven reasoning-branch-panel models.
+    models:
+      - anthropic_claude_sonnet_46
+      - openai_gpt54
+      - google_gemini_25_pro
+      - deepseek_v4_pro
+      - kimi_k2p6
+      - glm_5p1
+      - qwen3p6_plus
+    generate:
+      top_p: 1.0
+      max_connections: 10
+      max_retries: 2
+      max_tokens: 8192
+      reasoning_effort: low
+      reasoning_history: last
+
+  cot:
+    # Two CoT-panel models without a provider-native thinking channel.
+    models:
+      - mistral_large_2512
+      - llama_aithos_hc3sp18t
+    generate:
+      # top_p omitted because Anthropic Claude rejects temperature+top_p
+      # together with a 400; safe to leave out for the other providers.
+      temperature: 0.2
+      max_connections: 10
+      max_retries: 2
+      max_tokens: 8192

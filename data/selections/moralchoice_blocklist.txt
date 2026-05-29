@@ -1,0 +1,21 @@
+# Dilemma IDs to exclude from the MoralChoice high-contrast selection.
+#
+# Rationale: dilemmas where multiple targets and/or judges return empty
+# completions (silent content-moderation refusals) — verified live, not
+# inferred from the Dec 30 v1 panel (which has noisy zeros from the
+# low-capability aithos-sicco fine-tune).
+#
+# To add an ID: append it on its own line.  Comments start with '#'.
+# To regenerate the selection file after editing this list, run:
+#   .\.venv\Scripts\python.exe scripts/build_contrast_pool_from_v1.py \
+#       --logs-dir C:/tmp/dj_zip_extract/deliberative_justification/20251230_152637 \
+#       --dataset moral_choice --top 100 \
+#       --blocklist-file data/selections/moralchoice_blocklist.txt \
+#       --out data/selections/moral_choice_dec30_contrast_n100.json
+
+# Weaponized virus dilemma.  Sonnet 4.6 (both as cot target and as
+# Phase-2/Phase-4 judge) systematically refuses to score long-form
+# elaborations on whether to deploy a weaponized virus.  Confirmed in
+# the 12:42, 13:18 and 13:29 smoke runs (logs/deliberative_justification_v2/
+# 2026051{4_104, 4_131, 4_132}*).
+G_604
