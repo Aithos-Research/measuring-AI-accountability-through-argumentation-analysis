@@ -1,49 +1,88 @@
 # Example Inspect-AI `.eval` runs
 
-Two small representative Inspect-AI runs from the publication, included so
-anyone browsing the repo (or watching a presentation) can open a real eval
-trace immediately without downloading the 1.2 GB release archive.
+Small representative Inspect-AI traces from the publication — **one per
+(model, elicitation regime) pair** — so anyone browsing the repo or watching a
+presentation can immediately open a real trace from any of the 9 frontier
+models the paper evaluates.
 
-## Files
+Each `.eval` file is paired with its `.json` sidecar (standard Inspect-AI
+layout). Total folder size is ~35 MB; the full publication set (1.2 GB across
+88 files) is shipped separately as a GitHub Release artifact.
 
-| File | Panel | Model | Task | Note |
-|---|---|---|---|---|
-| `demo_llama3.3_cot.eval` (+ `.json`) | CoT | Llama 3.3 | `deliberative_justification_v2_cot` | Partial run (~10 dilemmas). Useful for a quick look at the CoT elicitation. |
-| `demo_gpt5.4_reasoning_encrypted_r_int.eval` (+ `.json`) | Reasoning | GPT 5.4 | `deliberative_justification_v2_reasoning` | Showcases the **encrypted reasoning channel** — `r_int` is returned as ciphertext, motivating GPT 5.4's exclusion from the H2 paired test and the per-scheme analyses. |
+## Reasoning panel — `<model>__reasoning.eval`
+
+Native reasoning channel feeds `r_int`. Files cover the 7 reasoning-branch
+models the paper evaluates with the `deliberative_justification_v2_reasoning`
+task:
+
+| File | Note |
+|---|---|
+| `claude-sonnet-4.6__reasoning.eval` | `thinking.type.enabled` block as `r_int` |
+| `gpt-5.4__reasoning.eval`           | **Encrypted ciphertext** as `r_int` — motivates GPT exclusion from H2 / scheme analyses (paper §3.3) |
+| `gemini-2.5-pro__reasoning.eval`    | Native reasoning block |
+| `deepseek-v4-pro__reasoning.eval`   | Fireworks-hosted thinking variant |
+| `kimi-k2.6__reasoning.eval`         | Fireworks-hosted thinking variant |
+| `glm-5.1__reasoning.eval`           | Fireworks-hosted thinking variant |
+| `qwen3.6-plus__reasoning.eval`      | Fireworks-hosted thinking variant |
+
+## CoT panel — `<model>__cot.eval`
+
+Visible chain-of-thought elicitation feeds the **justification track**
+(`r_ext`) for all 9 models with the `deliberative_justification_v2_cot` task.
+The two models without native reasoning (Mistral, Llama) use this regime as
+their `r_int` substitute (pre-`<answer>` prose); the other seven appear here
+because the paper also includes their CoT-elicited justifications as a
+parallel comparison run.
+
+| File | Panel role |
+|---|---|
+| `claude-sonnet-4.6__cot.eval`       | reasoning-branch model, justification track |
+| `gpt-5.4__cot.eval`                 | reasoning-branch model, justification track |
+| `gemini-2.5-pro__cot.eval`          | reasoning-branch model, justification track |
+| `deepseek-v4-pro__cot.eval`         | reasoning-branch model, justification track |
+| `kimi-k2.6__cot.eval`               | reasoning-branch model, justification track |
+| `glm-5.1__cot.eval`                 | reasoning-branch model, justification track |
+| `qwen3.6-plus__cot.eval`            | reasoning-branch model, justification track |
+| `mistral-large-2512__cot.eval`      | **CoT panel** — visible CoT prose serves as `r_int` |
+| `llama-3.3__cot.eval`               | **CoT panel** — visible CoT prose serves as `r_int` |
 
 ## How to view
 
-### Web viewer (no install needed)
-
-Upload the `.eval` file to the public Inspect-AI viewer:
+### Web viewer (no install)
 
 > https://inspect.aisi.org.uk/log-viewer
 
-Drag-and-drop the `.eval` and inspect the prompts, model outputs, and Phase-4
-scoring per sample.
+Drag-and-drop any `.eval` file into the page. You'll see the per-sample tree:
+
+- **Phase 1** — Response elicitation: the model's verdict + `r_int` + `r_ext`.
+- **Phase 2** — Scheme classification: judge picks the Walton scheme and
+  generates situated critical questions per track.
+- **Phase 3** — Defence: model answers each critical question.
+- **Phase 4** — Argument-quality scoring: per-question + per-cell scores by
+  two judges on the 7 Govier dimensions.
 
 ### Local CLI
 
 ```bash
 pip install inspect-ai
-inspect view examples/demo_gpt5.4_reasoning_encrypted_r_int.eval
+inspect view examples/gpt-5.4__reasoning.eval
 ```
 
-Opens an interactive browser tab with the full trace tree:
-Phase 1 (response elicitation) → Phase 2 (scheme classification + critical
-questions) → Phase 3 (defence) → Phase 4 (ARG scoring by two judges).
+## What the file sizes mean
 
-## Full publication eval set
+Each example here is the **smallest viable run** for that (model, task) pair —
+roughly 0.1–0.6 MB, covering ~5–20 dilemmas per file. They are subsets, not
+the full 200-dilemma runs used in the paper. They are sufficient to inspect
+the trace structure, prompts, and scoring; they are **not** sufficient to
+re-derive paper statistics.
 
-The two files here are a tiny illustrative slice. The full set used in the
-paper is 88 `.eval` files across 9 models, ~1.2 GB uncompressed, available as
-a GitHub Release artifact:
+## Full publication set
 
-> Releases → `v1.0.0` → `WaltonSchemes_paper_logs.zip` (553 MB compressed)
+The 88 `.eval` files (with sidecars) that produced every paper number are at:
 
-The zip mirrors the repo layout and adds:
-- `reasoning/eval_files/{claude-sonnet-4-6, deepseek-v4-pro, gemini-2.5-pro, glm-5p1, gpt-5.4, kimi-k2p6, qwen3p6-plus}/`
-- `cot/eval_files/{llama-3.3, mistral-large-2512}/`
+> Releases → `v1.0.0` → `WaltonSchemes_paper_logs.zip`
 
-Per-file provenance (timestamp, source folder, size) is documented in
+The zip mirrors the repo layout under
+`reasoning/eval_files/<model>/` and `cot/eval_files/<model>/`.
+Per-file provenance is in
 [`eval_files_manifest.json`](../eval_files_manifest.json) at the repo root.
