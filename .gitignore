@@ -36,10 +36,22 @@ Thumbs.db
 .inspect_cache/
 .cache_inspect/
 
-# Local exploratory outputs from the analysis pipeline
-# (the paper data lives under logs/.../20260527_combined_panels_curation/
-# and is tracked.  This pattern ignores fresh runs the user might generate
-# but does NOT match the tracked sub-tree.)
+# Local exploratory outputs from the analysis pipeline.
+# The canonical paper data is whitelisted below; everything else is ignored.
 logs/deliberative_justification_v2/_*
 logs/deliberative_justification_v2/*/cot/
 logs/deliberative_justification_v2/*/reasoning/_no_gpt/
+
+# --- whitelist the canonical paper data ---
+# Reasoning panel (post-curation) — includes _no_gpt scheme analyses.
+!logs/deliberative_justification_v2/20260527_combined_panels_curation/
+!logs/deliberative_justification_v2/20260527_combined_panels_curation/**
+
+# CoT panel (combined 9-models run — the 2 CoT-only models' analyses).
+!logs/deliberative_justification_v2/20260522_combined_9models/
+!logs/deliberative_justification_v2/20260522_combined_9models/**
+
+# Raw Inspect-AI .eval files are NOT tracked here (1.2 GB total).
+# They are available as a GitHub Release artifact: WaltonSchemes_paper_logs.zip
+# and inventoried in eval_files_manifest.json at the repo root.
+logs/**/eval_files/

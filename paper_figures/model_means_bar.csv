@@ -1,0 +1,10 @@
+model,mean,stderr
+Claude Sonnet 4.6,0.8348,0.0028
+DeepSeek V4 Pro,0.8044,0.0029
+Gemini 2.5 Pro,0.7703,0.0029
+GLM 5.1,0.8112,0.0031
+GPT 5.4,0.9048,0.0027
+Kimi K2.6,0.8500,0.0027
+Qwen 3.6 Plus,0.8186,0.0028
+Llama 3.3,0.7444,0.0033
+Mistral Large 2512,0.7705,0.0029

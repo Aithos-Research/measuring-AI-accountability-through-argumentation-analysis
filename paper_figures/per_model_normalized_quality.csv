@@ -1,0 +1,10 @@
+model,Local,Global
+Claude Sonnet 4.6,0.8553,0.7300
+DeepSeek V4 Pro,0.8094,0.7708
+Gemini 2.5 Pro,0.7779,0.7210
+GLM 5.1,0.8173,0.7731
+GPT 5.4,0.9116,0.8639
+Kimi K2.6,0.8573,0.8041
+Qwen 3.6 Plus,0.8254,0.7733
+Llama 3.3,0.7594,0.6619
+Mistral Large 2512,0.7812,0.7076

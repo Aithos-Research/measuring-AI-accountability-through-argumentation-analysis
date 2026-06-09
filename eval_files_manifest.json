@@ -1,0 +1,882 @@
+[
+  {
+    "panel": "reasoning",
+    "model": "anthropic/claude-sonnet-4-6",
+    "task": "deliberative_justification_v2_reasoning",
+    "created": "2026-05-26T10:18:57",
+    "source_folder": "20260526_101851",
+    "eval_file": "2026-05-26T10-18-57+02-00_deliberative-justification-v2-reasoning_PkJQYpGjAC7vyzwmiP7P4W.eval",
+    "json_file": "2026-05-26T10-18-57+02-00_deliberative-justification-v2-reasoning_PkJQYpGjAC7vyzwmiP7P4W.json",
+    "size_mb": 1.03
+  },
+  {
+    "panel": "reasoning",
+    "model": "anthropic/claude-sonnet-4-6",
+    "task": "deliberative_justification_v2_reasoning",
+    "created": "2026-05-26T10:41:19",
+    "source_folder": "20260526_104112",
+    "eval_file": "2026-05-26T10-41-19+02-00_deliberative-justification-v2-reasoning_MJmEgJ6EGoyQZ7nwoDt86q.eval",
+    "json_file": "2026-05-26T10-41-19+02-00_deliberative-justification-v2-reasoning_MJmEgJ6EGoyQZ7nwoDt86q.json",
+    "size_mb": 2.31
+  },
+  {
+    "panel": "reasoning",
+    "model": "anthropic/claude-sonnet-4-6",
+    "task": "deliberative_justification_v2_reasoning",
+    "created": "2026-05-26T10:54:54",
+    "source_folder": "20260526_105447",
+    "eval_file": "2026-05-26T10-54-54+02-00_deliberative-justification-v2-reasoning_No6YAvzxwjHQgM8fPSK64P.eval",
+    "json_file": "2026-05-26T10-54-54+02-00_deliberative-justification-v2-reasoning_No6YAvzxwjHQgM8fPSK64P.json",
+    "size_mb": 2.21
+  },
+  {
+    "panel": "reasoning",
+    "model": "anthropic/claude-sonnet-4-6",
+    "task": "deliberative_justification_v2_reasoning",
+    "created": "2026-05-26T11:06:27",
+    "source_folder": "20260526_110624",
+    "eval_file": "2026-05-26T11-06-27+02-00_deliberative-justification-v2-reasoning_Zr4D5yxsuxrX5VjfH48Kho.eval",
+    "json_file": "2026-05-26T11-06-27+02-00_deliberative-justification-v2-reasoning_Zr4D5yxsuxrX5VjfH48Kho.json",
+    "size_mb": 2.08
+  },
+  {
+    "panel": "reasoning",
+    "model": "anthropic/claude-sonnet-4-6",
+    "task": "deliberative_justification_v2_reasoning",
+    "created": "2026-05-26T11:12:01",
+    "source_folder": "20260526_111154",
+    "eval_file": "2026-05-26T11-12-01+02-00_deliberative-justification-v2-reasoning_W5AD4BKkSBsmNxY9WHUgH2.eval",
+    "json_file": "2026-05-26T11-12-01+02-00_deliberative-justification-v2-reasoning_W5AD4BKkSBsmNxY9WHUgH2.json",
+    "size_mb": 2.08
+  },
+  {
+    "panel": "reasoning",
+    "model": "anthropic/claude-sonnet-4-6",
+    "task": "deliberative_justification_v2_reasoning",
+    "created": "2026-05-26T11:19:31",
+    "source_folder": "20260526_111927",
+    "eval_file": "2026-05-26T11-19-31+02-00_deliberative-justification-v2-reasoning_FNRP7M2DHPeTHa7ZLCv427.eval",
+    "json_file": "2026-05-26T11-19-31+02-00_deliberative-justification-v2-reasoning_FNRP7M2DHPeTHa7ZLCv427.json",
+    "size_mb": 2.55
+  },
+  {
+    "panel": "reasoning",
+    "model": "anthropic/claude-sonnet-4-6",
+    "task": "deliberative_justification_v2_reasoning",
+    "created": "2026-05-26T11:48:44",
+    "source_folder": "20260526_114842",
+    "eval_file": "2026-05-26T11-48-44+02-00_deliberative-justification-v2-reasoning_Bv57NyjJZWazaJFbFMqKYN.eval",
+    "json_file": "2026-05-26T11-48-44+02-00_deliberative-justification-v2-reasoning_Bv57NyjJZWazaJFbFMqKYN.json",
+    "size_mb": 103.28
+  },
+  {
+    "panel": "reasoning",
+    "model": "fireworks/accounts/fireworks/models/deepseek-v4-pro",
+    "task": "deliberative_justification_v2_reasoning",
+    "created": "2026-05-26T09:56:01",
+    "source_folder": "20260526_095600",
+    "eval_file": "2026-05-26T09-56-01+02-00_deliberative-justification-v2-reasoning_5JkhyfSqpA9S45sFVMze7i.eval",
+    "json_file": "2026-05-26T09-56-01+02-00_deliberative-justification-v2-reasoning_5JkhyfSqpA9S45sFVMze7i.json",
+    "size_mb": 1.91
+  },
+  {
+    "panel": "reasoning",
+    "model": "fireworks/accounts/fireworks/models/deepseek-v4-pro",
+    "task": "deliberative_justification_v2_reasoning",
+    "created": "2026-05-26T10:18:58",
+    "source_folder": "20260526_101851",
+    "eval_file": "2026-05-26T10-18-58+02-00_deliberative-justification-v2-reasoning_Q2DL5h6dhB49fJs3qcqVQx.eval",
+    "json_file": "2026-05-26T10-18-58+02-00_deliberative-justification-v2-reasoning_Q2DL5h6dhB49fJs3qcqVQx.json",
+    "size_mb": 2.2
+  },
+  {
+    "panel": "reasoning",
+    "model": "fireworks/accounts/fireworks/models/deepseek-v4-pro",
+    "task": "deliberative_justification_v2_reasoning",
+    "created": "2026-05-26T10:41:19",
+    "source_folder": "20260526_104112",
+    "eval_file": "2026-05-26T10-41-19+02-00_deliberative-justification-v2-reasoning_diPPq2JyFMkSYPerCMo4MN.eval",
+    "json_file": "2026-05-26T10-41-19+02-00_deliberative-justification-v2-reasoning_diPPq2JyFMkSYPerCMo4MN.json",
+    "size_mb": 2.2
+  },
+  {
+    "panel": "reasoning",
+    "model": "fireworks/accounts/fireworks/models/deepseek-v4-pro",
+    "task": "deliberative_justification_v2_reasoning",
+    "created": "2026-05-26T10:54:56",
+    "source_folder": "20260526_105447",
+    "eval_file": "2026-05-26T10-54-56+02-00_deliberative-justification-v2-reasoning_VPe7AL5GPJPsnkeJjhvBfb.eval",
+    "json_file": "2026-05-26T10-54-56+02-00_deliberative-justification-v2-reasoning_VPe7AL5GPJPsnkeJjhvBfb.json",
+    "size_mb": 2.12
+  },
+  {
+    "panel": "reasoning",
+    "model": "fireworks/accounts/fireworks/models/deepseek-v4-pro",
+    "task": "deliberative_justification_v2_reasoning",
+    "created": "2026-05-26T11:06:27",
+    "source_folder": "20260526_110624",
+    "eval_file": "2026-05-26T11-06-27+02-00_deliberative-justification-v2-reasoning_KmAPcifWePsqow7vcJq46s.eval",
+    "json_file": "2026-05-26T11-06-27+02-00_deliberative-justification-v2-reasoning_KmAPcifWePsqow7vcJq46s.json",
+    "size_mb": 2.18
+  },
+  {
+    "panel": "reasoning",
+    "model": "fireworks/accounts/fireworks/models/deepseek-v4-pro",
+    "task": "deliberative_justification_v2_reasoning",
+    "created": "2026-05-26T11:12:02",
+    "source_folder": "20260526_111154",
+    "eval_file": "2026-05-26T11-12-02+02-00_deliberative-justification-v2-reasoning_DYY5sYKawvTq25nzPPNH7U.eval",
+    "json_file": "2026-05-26T11-12-02+02-00_deliberative-justification-v2-reasoning_DYY5sYKawvTq25nzPPNH7U.json",
+    "size_mb": 2.15
+  },
+  {
+    "panel": "reasoning",
+    "model": "fireworks/accounts/fireworks/models/deepseek-v4-pro",
+    "task": "deliberative_justification_v2_reasoning",
+    "created": "2026-05-26T11:19:31",
+    "source_folder": "20260526_111927",
+    "eval_file": "2026-05-26T11-19-31+02-00_deliberative-justification-v2-reasoning_ebSQunqaxgELg5Ues9gWBF.eval",
+    "json_file": "2026-05-26T11-19-31+02-00_deliberative-justification-v2-reasoning_ebSQunqaxgELg5Ues9gWBF.json",
+    "size_mb": 2.4
+  },
+  {
+    "panel": "reasoning",
+    "model": "fireworks/accounts/fireworks/models/deepseek-v4-pro",
+    "task": "deliberative_justification_v2_reasoning",
+    "created": "2026-05-26T11:48:45",
+    "source_folder": "20260526_114842",
+    "eval_file": "2026-05-26T11-48-45+02-00_deliberative-justification-v2-reasoning_kQfA6eA93GnHUHmMhTCSW5.eval",
+    "json_file": "2026-05-26T11-48-45+02-00_deliberative-justification-v2-reasoning_kQfA6eA93GnHUHmMhTCSW5.json",
+    "size_mb": 104.8
+  },
+  {
+    "panel": "reasoning",
+    "model": "fireworks/accounts/fireworks/models/glm-5p1",
+    "task": "deliberative_justification_v2_reasoning",
+    "created": "2026-05-26T09:56:02",
+    "source_folder": "20260526_095600",
+    "eval_file": "2026-05-26T09-56-02+02-00_deliberative-justification-v2-reasoning_jrgo4jkiUELpgKZryid8Ye.eval",
+    "json_file": "2026-05-26T09-56-02+02-00_deliberative-justification-v2-reasoning_jrgo4jkiUELpgKZryid8Ye.json",
+    "size_mb": 2.23
+  },
+  {
+    "panel": "reasoning",
+    "model": "fireworks/accounts/fireworks/models/glm-5p1",
+    "task": "deliberative_justification_v2_reasoning",
+    "created": "2026-05-26T10:18:58",
+    "source_folder": "20260526_101851",
+    "eval_file": "2026-05-26T10-18-58+02-00_deliberative-justification-v2-reasoning_Gm4waQsFdYehqFgkXWSqeu.eval",
+    "json_file": "2026-05-26T10-18-58+02-00_deliberative-justification-v2-reasoning_Gm4waQsFdYehqFgkXWSqeu.json",
+    "size_mb": 2.54
+  },
+  {
+    "panel": "reasoning",
+    "model": "fireworks/accounts/fireworks/models/glm-5p1",
+    "task": "deliberative_justification_v2_reasoning",
+    "created": "2026-05-26T10:41:20",
+    "source_folder": "20260526_104112",
+    "eval_file": "2026-05-26T10-41-20+02-00_deliberative-justification-v2-reasoning_7DfZ9Yaf7fibBbbQwnKXWU.eval",
+    "json_file": "2026-05-26T10-41-20+02-00_deliberative-justification-v2-reasoning_7DfZ9Yaf7fibBbbQwnKXWU.json",
+    "size_mb": 2.71
+  },
+  {
+    "panel": "reasoning",
+    "model": "fireworks/accounts/fireworks/models/glm-5p1",
+    "task": "deliberative_justification_v2_reasoning",
+    "created": "2026-05-26T10:54:56",
+    "source_folder": "20260526_105447",
+    "eval_file": "2026-05-26T10-54-56+02-00_deliberative-justification-v2-reasoning_KMKNoP4AddRapD6WqjwDpR.eval",
+    "json_file": "2026-05-26T10-54-56+02-00_deliberative-justification-v2-reasoning_KMKNoP4AddRapD6WqjwDpR.json",
+    "size_mb": 2.52
+  },
+  {
+    "panel": "reasoning",
+    "model": "fireworks/accounts/fireworks/models/glm-5p1",
+    "task": "deliberative_justification_v2_reasoning",
+    "created": "2026-05-26T11:06:27",
+    "source_folder": "20260526_110624",
+    "eval_file": "2026-05-26T11-06-27+02-00_deliberative-justification-v2-reasoning_eEYXKuFg96JYh2dQeFrZfx.eval",
+    "json_file": "2026-05-26T11-06-27+02-00_deliberative-justification-v2-reasoning_eEYXKuFg96JYh2dQeFrZfx.json",
+    "size_mb": 2.39
+  },
+  {
+    "panel": "reasoning",
+    "model": "fireworks/accounts/fireworks/models/glm-5p1",
+    "task": "deliberative_justification_v2_reasoning",
+    "created": "2026-05-26T11:12:02",
+    "source_folder": "20260526_111154",
+    "eval_file": "2026-05-26T11-12-02+02-00_deliberative-justification-v2-reasoning_WzaJy2ceoXk7qZh2quCE7j.eval",
+    "json_file": "2026-05-26T11-12-02+02-00_deliberative-justification-v2-reasoning_WzaJy2ceoXk7qZh2quCE7j.json",
+    "size_mb": 2.39
+  },
+  {
+    "panel": "reasoning",
+    "model": "fireworks/accounts/fireworks/models/glm-5p1",
+    "task": "deliberative_justification_v2_reasoning",
+    "created": "2026-05-26T11:19:32",
+    "source_folder": "20260526_111927",
+    "eval_file": "2026-05-26T11-19-32+02-00_deliberative-justification-v2-reasoning_njj7H4Ba4dCmaSWBihZGwK.eval",
+    "json_file": "2026-05-26T11-19-32+02-00_deliberative-justification-v2-reasoning_njj7H4Ba4dCmaSWBihZGwK.json",
+    "size_mb": 2.94
+  },
+  {
+    "panel": "reasoning",
+    "model": "fireworks/accounts/fireworks/models/glm-5p1",
+    "task": "deliberative_justification_v2_reasoning",
+    "created": "2026-05-26T11:48:45",
+    "source_folder": "20260526_114842",
+    "eval_file": "2026-05-26T11-48-45+02-00_deliberative-justification-v2-reasoning_hkmnjrgkMWLPZEyw4XpNwf.eval",
+    "json_file": "2026-05-26T11-48-45+02-00_deliberative-justification-v2-reasoning_hkmnjrgkMWLPZEyw4XpNwf.json",
+    "size_mb": 121.62
+  },
+  {
+    "panel": "reasoning",
+    "model": "fireworks/accounts/fireworks/models/kimi-k2p6",
+    "task": "deliberative_justification_v2_reasoning",
+    "created": "2026-05-26T09:56:02",
+    "source_folder": "20260526_095600",
+    "eval_file": "2026-05-26T09-56-02+02-00_deliberative-justification-v2-reasoning_eSVs5riJhS6iuFY4H3RCxT.eval",
+    "json_file": "2026-05-26T09-56-02+02-00_deliberative-justification-v2-reasoning_eSVs5riJhS6iuFY4H3RCxT.json",
+    "size_mb": 2.76
+  },
+  {
+    "panel": "reasoning",
+    "model": "fireworks/accounts/fireworks/models/kimi-k2p6",
+    "task": "deliberative_justification_v2_reasoning",
+    "created": "2026-05-26T10:18:58",
+    "source_folder": "20260526_101851",
+    "eval_file": "2026-05-26T10-18-58+02-00_deliberative-justification-v2-reasoning_fg9WtDY7EDvgVUUhHL2dzj.eval",
+    "json_file": "2026-05-26T10-18-58+02-00_deliberative-justification-v2-reasoning_fg9WtDY7EDvgVUUhHL2dzj.json",
+    "size_mb": 3.04
+  },
+  {
+    "panel": "reasoning",
+    "model": "fireworks/accounts/fireworks/models/kimi-k2p6",
+    "task": "deliberative_justification_v2_reasoning",
+    "created": "2026-05-26T10:41:20",
+    "source_folder": "20260526_104112",
+    "eval_file": "2026-05-26T10-41-20+02-00_deliberative-justification-v2-reasoning_4GjfZB89xzrYTjMDvB7oSm.eval",
+    "json_file": "2026-05-26T10-41-20+02-00_deliberative-justification-v2-reasoning_4GjfZB89xzrYTjMDvB7oSm.json",
+    "size_mb": 3.38
+  },
+  {
+    "panel": "reasoning",
+    "model": "fireworks/accounts/fireworks/models/kimi-k2p6",
+    "task": "deliberative_justification_v2_reasoning",
+    "created": "2026-05-26T10:54:56",
+    "source_folder": "20260526_105447",
+    "eval_file": "2026-05-26T10-54-56+02-00_deliberative-justification-v2-reasoning_eERJDQEpwfHmjaP4PP9bfS.eval",
+    "json_file": "2026-05-26T10-54-56+02-00_deliberative-justification-v2-reasoning_eERJDQEpwfHmjaP4PP9bfS.json",
+    "size_mb": 3.15
+  },
+  {
+    "panel": "reasoning",
+    "model": "fireworks/accounts/fireworks/models/kimi-k2p6",
+    "task": "deliberative_justification_v2_reasoning",
+    "created": "2026-05-26T11:06:27",
+    "source_folder": "20260526_110624",
+    "eval_file": "2026-05-26T11-06-27+02-00_deliberative-justification-v2-reasoning_gNQfxvrzHXN77QvE9Zr69L.eval",
+    "json_file": "2026-05-26T11-06-27+02-00_deliberative-justification-v2-reasoning_gNQfxvrzHXN77QvE9Zr69L.json",
+    "size_mb": 3.01
+  },
+  {
+    "panel": "reasoning",
+    "model": "fireworks/accounts/fireworks/models/kimi-k2p6",
+    "task": "deliberative_justification_v2_reasoning",
+    "created": "2026-05-26T11:12:02",
+    "source_folder": "20260526_111154",
+    "eval_file": "2026-05-26T11-12-02+02-00_deliberative-justification-v2-reasoning_ZM8yP3jKDZyG6gTZBwvMxc.eval",
+    "json_file": "2026-05-26T11-12-02+02-00_deliberative-justification-v2-reasoning_ZM8yP3jKDZyG6gTZBwvMxc.json",
+    "size_mb": 3.01
+  },
+  {
+    "panel": "reasoning",
+    "model": "fireworks/accounts/fireworks/models/kimi-k2p6",
+    "task": "deliberative_justification_v2_reasoning",
+    "created": "2026-05-26T11:19:31",
+    "source_folder": "20260526_111927",
+    "eval_file": "2026-05-26T11-19-31+02-00_deliberative-justification-v2-reasoning_XiaKLBAgR4KMSqup3bA9Tu.eval",
+    "json_file": "2026-05-26T11-19-31+02-00_deliberative-justification-v2-reasoning_XiaKLBAgR4KMSqup3bA9Tu.json",
+    "size_mb": 3.32
+  },
+  {
+    "panel": "reasoning",
+    "model": "fireworks/accounts/fireworks/models/kimi-k2p6",
+    "task": "deliberative_justification_v2_reasoning",
+    "created": "2026-05-26T11:48:45",
+    "source_folder": "20260526_114842",
+    "eval_file": "2026-05-26T11-48-45+02-00_deliberative-justification-v2-reasoning_k6Nw2SNQscSuNroqA2TjVs.eval",
+    "json_file": "2026-05-26T11-48-45+02-00_deliberative-justification-v2-reasoning_k6Nw2SNQscSuNroqA2TjVs.json",
+    "size_mb": 141.24
+  },
+  {
+    "panel": "reasoning",
+    "model": "fireworks/accounts/fireworks/models/qwen3p6-plus",
+    "task": "deliberative_justification_v2_reasoning",
+    "created": "2026-05-26T09:56:02",
+    "source_folder": "20260526_095600",
+    "eval_file": "2026-05-26T09-56-02+02-00_deliberative-justification-v2-reasoning_8wg2NYooMp5PPKR5wdjS9U.eval",
+    "json_file": "2026-05-26T09-56-02+02-00_deliberative-justification-v2-reasoning_8wg2NYooMp5PPKR5wdjS9U.json",
+    "size_mb": 3.15
+  },
+  {
+    "panel": "reasoning",
+    "model": "fireworks/accounts/fireworks/models/qwen3p6-plus",
+    "task": "deliberative_justification_v2_reasoning",
+    "created": "2026-05-26T10:18:58",
+    "source_folder": "20260526_101851",
+    "eval_file": "2026-05-26T10-18-58+02-00_deliberative-justification-v2-reasoning_Lb8Z56gE7xefyVLAQgBEc4.eval",
+    "json_file": "2026-05-26T10-18-58+02-00_deliberative-justification-v2-reasoning_Lb8Z56gE7xefyVLAQgBEc4.json",
+    "size_mb": 3.42
+  },
+  {
+    "panel": "reasoning",
+    "model": "fireworks/accounts/fireworks/models/qwen3p6-plus",
+    "task": "deliberative_justification_v2_reasoning",
+    "created": "2026-05-26T10:41:21",
+    "source_folder": "20260526_104112",
+    "eval_file": "2026-05-26T10-41-21+02-00_deliberative-justification-v2-reasoning_ASzWiwy7DRcSzLYAJ8smaJ.eval",
+    "json_file": "2026-05-26T10-41-21+02-00_deliberative-justification-v2-reasoning_ASzWiwy7DRcSzLYAJ8smaJ.json",
+    "size_mb": 3.5
+  },
+  {
+    "panel": "reasoning",
+    "model": "fireworks/accounts/fireworks/models/qwen3p6-plus",
+    "task": "deliberative_justification_v2_reasoning",
+    "created": "2026-05-26T10:54:57",
+    "source_folder": "20260526_105447",
+    "eval_file": "2026-05-26T10-54-57+02-00_deliberative-justification-v2-reasoning_4zXadT8UYcWQTYynbRaa2H.eval",
+    "json_file": "2026-05-26T10-54-57+02-00_deliberative-justification-v2-reasoning_4zXadT8UYcWQTYynbRaa2H.json",
+    "size_mb": 3.28
+  },
+  {
+    "panel": "reasoning",
+    "model": "fireworks/accounts/fireworks/models/qwen3p6-plus",
+    "task": "deliberative_justification_v2_reasoning",
+    "created": "2026-05-26T11:06:27",
+    "source_folder": "20260526_110624",
+    "eval_file": "2026-05-26T11-06-27+02-00_deliberative-justification-v2-reasoning_4aCJFTJcvjBTGcGCfef9Ep.eval",
+    "json_file": "2026-05-26T11-06-27+02-00_deliberative-justification-v2-reasoning_4aCJFTJcvjBTGcGCfef9Ep.json",
+    "size_mb": 3.15
+  },
+  {
+    "panel": "reasoning",
+    "model": "fireworks/accounts/fireworks/models/qwen3p6-plus",
+    "task": "deliberative_justification_v2_reasoning",
+    "created": "2026-05-26T11:12:02",
+    "source_folder": "20260526_111154",
+    "eval_file": "2026-05-26T11-12-02+02-00_deliberative-justification-v2-reasoning_CbVKqiaakLXNWHJS6xqQCA.eval",
+    "json_file": "2026-05-26T11-12-02+02-00_deliberative-justification-v2-reasoning_CbVKqiaakLXNWHJS6xqQCA.json",
+    "size_mb": 3.16
+  },
+  {
+    "panel": "reasoning",
+    "model": "fireworks/accounts/fireworks/models/qwen3p6-plus",
+    "task": "deliberative_justification_v2_reasoning",
+    "created": "2026-05-26T11:19:32",
+    "source_folder": "20260526_111927",
+    "eval_file": "2026-05-26T11-19-32+02-00_deliberative-justification-v2-reasoning_A7kLdygh7hanttCqG7uBrL.eval",
+    "json_file": "2026-05-26T11-19-32+02-00_deliberative-justification-v2-reasoning_A7kLdygh7hanttCqG7uBrL.json",
+    "size_mb": 3.77
+  },
+  {
+    "panel": "reasoning",
+    "model": "fireworks/accounts/fireworks/models/qwen3p6-plus",
+    "task": "deliberative_justification_v2_reasoning",
+    "created": "2026-05-26T11:48:45",
+    "source_folder": "20260526_114842",
+    "eval_file": "2026-05-26T11-48-45+02-00_deliberative-justification-v2-reasoning_LTv4yMF3X9rBxB886wtAQh.eval",
+    "json_file": "2026-05-26T11-48-45+02-00_deliberative-justification-v2-reasoning_LTv4yMF3X9rBxB886wtAQh.json",
+    "size_mb": 152.89
+  },
+  {
+    "panel": "reasoning",
+    "model": "google/gemini-2.5-pro",
+    "task": "deliberative_justification_v2_reasoning",
+    "created": "2026-05-26T09:56:01",
+    "source_folder": "20260526_095600",
+    "eval_file": "2026-05-26T09-56-01+02-00_deliberative-justification-v2-reasoning_LuqksNiY8fBph23kGokrpX.eval",
+    "json_file": "2026-05-26T09-56-01+02-00_deliberative-justification-v2-reasoning_LuqksNiY8fBph23kGokrpX.json",
+    "size_mb": 2.43
+  },
+  {
+    "panel": "reasoning",
+    "model": "google/gemini-2.5-pro",
+    "task": "deliberative_justification_v2_reasoning",
+    "created": "2026-05-26T10:18:57",
+    "source_folder": "20260526_101851",
+    "eval_file": "2026-05-26T10-18-57+02-00_deliberative-justification-v2-reasoning_NCi79HaxgGU63gik29KTvW.eval",
+    "json_file": "2026-05-26T10-18-57+02-00_deliberative-justification-v2-reasoning_NCi79HaxgGU63gik29KTvW.json",
+    "size_mb": 2.76
+  },
+  {
+    "panel": "reasoning",
+    "model": "google/gemini-2.5-pro",
+    "task": "deliberative_justification_v2_reasoning",
+    "created": "2026-05-26T10:41:19",
+    "source_folder": "20260526_104112",
+    "eval_file": "2026-05-26T10-41-19+02-00_deliberative-justification-v2-reasoning_jeEXvcuntokFFXNLpzsGb3.eval",
+    "json_file": "2026-05-26T10-41-19+02-00_deliberative-justification-v2-reasoning_jeEXvcuntokFFXNLpzsGb3.json",
+    "size_mb": 3.14
+  },
+  {
+    "panel": "reasoning",
+    "model": "google/gemini-2.5-pro",
+    "task": "deliberative_justification_v2_reasoning",
+    "created": "2026-05-26T10:54:55",
+    "source_folder": "20260526_105447",
+    "eval_file": "2026-05-26T10-54-55+02-00_deliberative-justification-v2-reasoning_bUeFGAUWTLDDbagQHqaqqf.eval",
+    "json_file": "2026-05-26T10-54-55+02-00_deliberative-justification-v2-reasoning_bUeFGAUWTLDDbagQHqaqqf.json",
+    "size_mb": 2.98
+  },
+  {
+    "panel": "reasoning",
+    "model": "google/gemini-2.5-pro",
+    "task": "deliberative_justification_v2_reasoning",
+    "created": "2026-05-26T11:06:27",
+    "source_folder": "20260526_110624",
+    "eval_file": "2026-05-26T11-06-27+02-00_deliberative-justification-v2-reasoning_mZM74HbLi7hQjkd52qzFgr.eval",
+    "json_file": "2026-05-26T11-06-27+02-00_deliberative-justification-v2-reasoning_mZM74HbLi7hQjkd52qzFgr.json",
+    "size_mb": 2.85
+  },
+  {
+    "panel": "reasoning",
+    "model": "google/gemini-2.5-pro",
+    "task": "deliberative_justification_v2_reasoning",
+    "created": "2026-05-26T11:12:01",
+    "source_folder": "20260526_111154",
+    "eval_file": "2026-05-26T11-12-01+02-00_deliberative-justification-v2-reasoning_iWzavfKSfgZf3kCqVupWHg.eval",
+    "json_file": "2026-05-26T11-12-01+02-00_deliberative-justification-v2-reasoning_iWzavfKSfgZf3kCqVupWHg.json",
+    "size_mb": 2.85
+  },
+  {
+    "panel": "reasoning",
+    "model": "google/gemini-2.5-pro",
+    "task": "deliberative_justification_v2_reasoning",
+    "created": "2026-05-26T11:19:31",
+    "source_folder": "20260526_111927",
+    "eval_file": "2026-05-26T11-19-31+02-00_deliberative-justification-v2-reasoning_9kwBauqGTW8GjaW95ewscs.eval",
+    "json_file": "2026-05-26T11-19-31+02-00_deliberative-justification-v2-reasoning_9kwBauqGTW8GjaW95ewscs.json",
+    "size_mb": 2.9
+  },
+  {
+    "panel": "reasoning",
+    "model": "google/gemini-2.5-pro",
+    "task": "deliberative_justification_v2_reasoning",
+    "created": "2026-05-26T11:48:44",
+    "source_folder": "20260526_114842",
+    "eval_file": "2026-05-26T11-48-44+02-00_deliberative-justification-v2-reasoning_bGfwApbDimeNA2DNhM6pd5.eval",
+    "json_file": "2026-05-26T11-48-44+02-00_deliberative-justification-v2-reasoning_bGfwApbDimeNA2DNhM6pd5.json",
+    "size_mb": 125.0
+  },
+  {
+    "panel": "reasoning",
+    "model": "openai/gpt-5.4",
+    "task": "deliberative_justification_v2_reasoning",
+    "created": "2026-05-26T09:56:01",
+    "source_folder": "20260526_095600",
+    "eval_file": "2026-05-26T09-56-01+02-00_deliberative-justification-v2-reasoning_2dXNHo9CCNLcLY5XyNZR3R.eval",
+    "json_file": "2026-05-26T09-56-01+02-00_deliberative-justification-v2-reasoning_2dXNHo9CCNLcLY5XyNZR3R.json",
+    "size_mb": 1.66
+  },
+  {
+    "panel": "reasoning",
+    "model": "openai/gpt-5.4",
+    "task": "deliberative_justification_v2_reasoning",
+    "created": "2026-05-26T10:18:57",
+    "source_folder": "20260526_101851",
+    "eval_file": "2026-05-26T10-18-57+02-00_deliberative-justification-v2-reasoning_C2TdxKoj5LyXW3M2K34Lxq.eval",
+    "json_file": "2026-05-26T10-18-57+02-00_deliberative-justification-v2-reasoning_C2TdxKoj5LyXW3M2K34Lxq.json",
+    "size_mb": 1.98
+  },
+  {
+    "panel": "reasoning",
+    "model": "openai/gpt-5.4",
+    "task": "deliberative_justification_v2_reasoning",
+    "created": "2026-05-26T10:41:18",
+    "source_folder": "20260526_104112",
+    "eval_file": "2026-05-26T10-41-18+02-00_deliberative-justification-v2-reasoning_ByBiEV8W8iVriCVxPiZzrq.eval",
+    "json_file": "2026-05-26T10-41-18+02-00_deliberative-justification-v2-reasoning_ByBiEV8W8iVriCVxPiZzrq.json",
+    "size_mb": 2.17
+  },
+  {
+    "panel": "reasoning",
+    "model": "openai/gpt-5.4",
+    "task": "deliberative_justification_v2_reasoning",
+    "created": "2026-05-26T10:54:54",
+    "source_folder": "20260526_105447",
+    "eval_file": "2026-05-26T10-54-54+02-00_deliberative-justification-v2-reasoning_kDNqkQynNSrBYrZZMxaJyH.eval",
+    "json_file": "2026-05-26T10-54-54+02-00_deliberative-justification-v2-reasoning_kDNqkQynNSrBYrZZMxaJyH.json",
+    "size_mb": 2.06
+  },
+  {
+    "panel": "reasoning",
+    "model": "openai/gpt-5.4",
+    "task": "deliberative_justification_v2_reasoning",
+    "created": "2026-05-26T11:06:26",
+    "source_folder": "20260526_110624",
+    "eval_file": "2026-05-26T11-06-26+02-00_deliberative-justification-v2-reasoning_X9ksZbhwDmFbgbHnuaXHhg.eval",
+    "json_file": "2026-05-26T11-06-26+02-00_deliberative-justification-v2-reasoning_X9ksZbhwDmFbgbHnuaXHhg.json",
+    "size_mb": 1.93
+  },
+  {
+    "panel": "reasoning",
+    "model": "openai/gpt-5.4",
+    "task": "deliberative_justification_v2_reasoning",
+    "created": "2026-05-26T11:12:01",
+    "source_folder": "20260526_111154",
+    "eval_file": "2026-05-26T11-12-01+02-00_deliberative-justification-v2-reasoning_iEUeDHprww6EzgeWRf7YWx.eval",
+    "json_file": "2026-05-26T11-12-01+02-00_deliberative-justification-v2-reasoning_iEUeDHprww6EzgeWRf7YWx.json",
+    "size_mb": 1.93
+  },
+  {
+    "panel": "reasoning",
+    "model": "openai/gpt-5.4",
+    "task": "deliberative_justification_v2_reasoning",
+    "created": "2026-05-26T11:19:30",
+    "source_folder": "20260526_111927",
+    "eval_file": "2026-05-26T11-19-30+02-00_deliberative-justification-v2-reasoning_UKHU8xQp42o3uAJvPiWZFd.eval",
+    "json_file": "2026-05-26T11-19-30+02-00_deliberative-justification-v2-reasoning_UKHU8xQp42o3uAJvPiWZFd.json",
+    "size_mb": 2.22
+  },
+  {
+    "panel": "reasoning",
+    "model": "openai/gpt-5.4",
+    "task": "deliberative_justification_v2_reasoning",
+    "created": "2026-05-26T11:48:44",
+    "source_folder": "20260526_114842",
+    "eval_file": "2026-05-26T11-48-44+02-00_deliberative-justification-v2-reasoning_3CtFUX8TLxGnLCvQAaH6xZ.eval",
+    "json_file": "2026-05-26T11-48-44+02-00_deliberative-justification-v2-reasoning_3CtFUX8TLxGnLCvQAaH6xZ.json",
+    "size_mb": 49.26
+  },
+  {
+    "panel": "reasoning",
+    "model": "openai/gpt-5.4",
+    "task": "deliberative_justification_v2_reasoning",
+    "created": "2026-05-27T00:26:20",
+    "source_folder": "20260527_002619",
+    "eval_file": "2026-05-27T00-26-20+02-00_deliberative-justification-v2-reasoning_eGFNyyTUdiUW5mGMJoVqLa.eval",
+    "json_file": "2026-05-27T00-26-20+02-00_deliberative-justification-v2-reasoning_eGFNyyTUdiUW5mGMJoVqLa.json",
+    "size_mb": 37.95
+  },
+  {
+    "panel": "cot",
+    "model": "fireworks/accounts/fireworks/models/llama-v3p3-70b-instruct",
+    "task": "deliberative_justification_v2_cot",
+    "created": "2026-05-13T12:04:35",
+    "source_folder": "20260513_120434",
+    "eval_file": "2026-05-13T12-04-35+02-00_deliberative-justification-v2-cot_W292giLhRLvmmv6Lj5DeBp.eval",
+    "json_file": "2026-05-13T12-04-35+02-00_deliberative-justification-v2-cot_W292giLhRLvmmv6Lj5DeBp.json",
+    "size_mb": 2.29
+  },
+  {
+    "panel": "cot",
+    "model": "fireworks/accounts/fireworks/models/llama-v3p3-70b-instruct",
+    "task": "deliberative_justification_v2_cot",
+    "created": "2026-05-13T12:11:16",
+    "source_folder": "20260513_121116",
+    "eval_file": "2026-05-13T12-11-16+02-00_deliberative-justification-v2-cot_kqV4LeAQLedfqsWdnfwV8h.eval",
+    "json_file": "2026-05-13T12-11-16+02-00_deliberative-justification-v2-cot_kqV4LeAQLedfqsWdnfwV8h.json",
+    "size_mb": 2.47
+  },
+  {
+    "panel": "cot",
+    "model": "fireworks/accounts/fireworks/models/llama-v3p3-70b-instruct",
+    "task": "deliberative_justification_v2_cot",
+    "created": "2026-05-13T12:19:10",
+    "source_folder": "20260513_121909",
+    "eval_file": "2026-05-13T12-19-10+02-00_deliberative-justification-v2-cot_MVNXhVjYbNij5CSVcj2S8h.eval",
+    "json_file": "2026-05-13T12-19-10+02-00_deliberative-justification-v2-cot_MVNXhVjYbNij5CSVcj2S8h.json",
+    "size_mb": 2.42
+  },
+  {
+    "panel": "cot",
+    "model": "fireworks/accounts/fireworks/models/llama-v3p3-70b-instruct",
+    "task": "deliberative_justification_v2_cot",
+    "created": "2026-05-13T12:31:10",
+    "source_folder": "20260513_123109",
+    "eval_file": "2026-05-13T12-31-10+02-00_deliberative-justification-v2-cot_BmHt3xKL7MYZSpeC8Hm3j3.eval",
+    "json_file": "2026-05-13T12-31-10+02-00_deliberative-justification-v2-cot_BmHt3xKL7MYZSpeC8Hm3j3.json",
+    "size_mb": 2.15
+  },
+  {
+    "panel": "cot",
+    "model": "fireworks/accounts/fireworks/models/llama-v3p3-70b-instruct",
+    "task": "deliberative_justification_v2_cot",
+    "created": "2026-05-13T12:35:19",
+    "source_folder": "20260513_123518",
+    "eval_file": "2026-05-13T12-35-19+02-00_deliberative-justification-v2-cot_ncimJdMgGv4XKKP7T2Xy7e.eval",
+    "json_file": "2026-05-13T12-35-19+02-00_deliberative-justification-v2-cot_ncimJdMgGv4XKKP7T2Xy7e.json",
+    "size_mb": 2.62
+  },
+  {
+    "panel": "cot",
+    "model": "fireworks/accounts/fireworks/models/llama-v3p3-70b-instruct",
+    "task": "deliberative_justification_v2_cot",
+    "created": "2026-05-13T12:40:17",
+    "source_folder": "20260513_124016",
+    "eval_file": "2026-05-13T12-40-17+02-00_deliberative-justification-v2-cot_fzPsj3UzrnxWQaB933JRMr.eval",
+    "json_file": "2026-05-13T12-40-17+02-00_deliberative-justification-v2-cot_fzPsj3UzrnxWQaB933JRMr.json",
+    "size_mb": 2.18
+  },
+  {
+    "panel": "cot",
+    "model": "fireworks/accounts/fireworks/models/llama-v3p3-70b-instruct",
+    "task": "deliberative_justification_v2_cot",
+    "created": "2026-05-13T12:46:13",
+    "source_folder": "20260513_124613",
+    "eval_file": "2026-05-13T12-46-13+02-00_deliberative-justification-v2-cot_fXHXkzjm8RMkMm7hmXBj3B.eval",
+    "json_file": "2026-05-13T12-46-13+02-00_deliberative-justification-v2-cot_fXHXkzjm8RMkMm7hmXBj3B.json",
+    "size_mb": 2.19
+  },
+  {
+    "panel": "cot",
+    "model": "fireworks/accounts/fireworks/models/llama-v3p3-70b-instruct",
+    "task": "deliberative_justification_v2_cot",
+    "created": "2026-05-13T12:59:26",
+    "source_folder": "20260513_125925",
+    "eval_file": "2026-05-13T12-59-26+02-00_deliberative-justification-v2-cot_RmKH5QPvshb6NwWsrZB3vz.eval",
+    "json_file": "2026-05-13T12-59-26+02-00_deliberative-justification-v2-cot_RmKH5QPvshb6NwWsrZB3vz.json",
+    "size_mb": 0.28
+  },
+  {
+    "panel": "cot",
+    "model": "fireworks/accounts/fireworks/models/llama-v3p3-70b-instruct",
+    "task": "deliberative_justification_v2_cot",
+    "created": "2026-05-13T13:01:43",
+    "source_folder": "20260513_130143",
+    "eval_file": "2026-05-13T13-01-43+02-00_deliberative-justification-v2-cot_NEFxQHnWHbdJXghE8DQFBY.eval",
+    "json_file": "2026-05-13T13-01-43+02-00_deliberative-justification-v2-cot_NEFxQHnWHbdJXghE8DQFBY.json",
+    "size_mb": 1.85
+  },
+  {
+    "panel": "cot",
+    "model": "fireworks/accounts/fireworks/models/llama-v3p3-70b-instruct",
+    "task": "deliberative_justification_v2_cot",
+    "created": "2026-05-13T13:13:25",
+    "source_folder": "20260513_131324",
+    "eval_file": "2026-05-13T13-13-25+02-00_deliberative-justification-v2-cot_gEVxPXQEufCBiS7Vmi94Pi.eval",
+    "json_file": "2026-05-13T13-13-25+02-00_deliberative-justification-v2-cot_gEVxPXQEufCBiS7Vmi94Pi.json",
+    "size_mb": 1.87
+  },
+  {
+    "panel": "cot",
+    "model": "fireworks/accounts/fireworks/models/llama-v3p3-70b-instruct",
+    "task": "deliberative_justification_v2_cot",
+    "created": "2026-05-13T13:41:18",
+    "source_folder": "20260513_134117",
+    "eval_file": "2026-05-13T13-41-18+02-00_deliberative-justification-v2-cot_NyjH2RDY62QqbKUz92ikvC.eval",
+    "json_file": "2026-05-13T13-41-18+02-00_deliberative-justification-v2-cot_NyjH2RDY62QqbKUz92ikvC.json",
+    "size_mb": 1.76
+  },
+  {
+    "panel": "cot",
+    "model": "fireworks/accounts/fireworks/models/llama-v3p3-70b-instruct",
+    "task": "deliberative_justification_v2_cot",
+    "created": "2026-05-13T14:28:46",
+    "source_folder": "20260513_142845",
+    "eval_file": "2026-05-13T14-28-46+02-00_deliberative-justification-v2-cot_93Xj79zbrZVNjYYn6r6imk.eval",
+    "json_file": "2026-05-13T14-28-46+02-00_deliberative-justification-v2-cot_93Xj79zbrZVNjYYn6r6imk.json",
+    "size_mb": 2.45
+  },
+  {
+    "panel": "cot",
+    "model": "fireworks/accounts/fireworks/models/llama-v3p3-70b-instruct",
+    "task": "deliberative_justification_v2_cot",
+    "created": "2026-05-13T14:37:59",
+    "source_folder": "20260513_143759",
+    "eval_file": "2026-05-13T14-37-59+02-00_deliberative-justification-v2-cot_cHHFDhkmPNGzmsANATTX4v.eval",
+    "json_file": "2026-05-13T14-37-59+02-00_deliberative-justification-v2-cot_cHHFDhkmPNGzmsANATTX4v.json",
+    "size_mb": 1.97
+  },
+  {
+    "panel": "cot",
+    "model": "fireworks/accounts/fireworks/models/llama-v3p3-70b-instruct",
+    "task": "deliberative_justification_v2_cot",
+    "created": "2026-05-13T14:55:10",
+    "source_folder": "20260513_145509",
+    "eval_file": "2026-05-13T14-55-10+02-00_deliberative-justification-v2-cot_9KMW2Mne8KnkjRVyHTFrAc.eval",
+    "json_file": "2026-05-13T14-55-10+02-00_deliberative-justification-v2-cot_9KMW2Mne8KnkjRVyHTFrAc.json",
+    "size_mb": 2.12
+  },
+  {
+    "panel": "cot",
+    "model": "fireworks/accounts/fireworks/models/llama-v3p3-70b-instruct",
+    "task": "deliberative_justification_v2_cot",
+    "created": "2026-05-13T16:24:34",
+    "source_folder": "20260513_162433",
+    "eval_file": "2026-05-13T16-24-34+02-00_deliberative-justification-v2-cot_gnwbkoqmp6BcYCpLoWXU2F.eval",
+    "json_file": "2026-05-13T16-24-34+02-00_deliberative-justification-v2-cot_gnwbkoqmp6BcYCpLoWXU2F.json",
+    "size_mb": 2.08
+  },
+  {
+    "panel": "cot",
+    "model": "mistral/mistral-large-2512",
+    "task": "deliberative_justification_v2_cot",
+    "created": "2026-05-13T18:49:55",
+    "source_folder": "20260513_184949",
+    "eval_file": "2026-05-13T18-49-55+02-00_deliberative-justification-v2-cot_Sdbd2f4PKrqfSdywqxdAaV.eval",
+    "json_file": "2026-05-13T18-49-55+02-00_deliberative-justification-v2-cot_Sdbd2f4PKrqfSdywqxdAaV.json",
+    "size_mb": 2.82
+  },
+  {
+    "panel": "cot",
+    "model": "mistral/mistral-large-2512",
+    "task": "deliberative_justification_v2_cot",
+    "created": "2026-05-13T20:45:16",
+    "source_folder": "20260513_204513",
+    "eval_file": "2026-05-13T20-45-16+02-00_deliberative-justification-v2-cot_EqAcKDDkY7q9WXQDhTgRdK.eval",
+    "json_file": "2026-05-13T20-45-16+02-00_deliberative-justification-v2-cot_EqAcKDDkY7q9WXQDhTgRdK.json",
+    "size_mb": 2.85
+  },
+  {
+    "panel": "cot",
+    "model": "mistral/mistral-large-2512",
+    "task": "deliberative_justification_v2_cot",
+    "created": "2026-05-14T10:29:00",
+    "source_folder": "20260514_102857",
+    "eval_file": "2026-05-14T10-29-00+02-00_deliberative-justification-v2-cot_hizNVHLR7pyZeXNa4z4HxA.eval",
+    "json_file": "2026-05-14T10-29-00+02-00_deliberative-justification-v2-cot_hizNVHLR7pyZeXNa4z4HxA.json",
+    "size_mb": 2.72
+  },
+  {
+    "panel": "cot",
+    "model": "mistral/mistral-large-2512",
+    "task": "deliberative_justification_v2_cot",
+    "created": "2026-05-14T11:38:27",
+    "source_folder": "20260514_113822",
+    "eval_file": "2026-05-14T11-38-27+02-00_deliberative-justification-v2-cot_SNS86VQCJkiMpReZCVK9hG.eval",
+    "json_file": "2026-05-14T11-38-27+02-00_deliberative-justification-v2-cot_SNS86VQCJkiMpReZCVK9hG.json",
+    "size_mb": 2.69
+  },
+  {
+    "panel": "cot",
+    "model": "mistral/mistral-large-2512",
+    "task": "deliberative_justification_v2_cot",
+    "created": "2026-05-14T12:42:45",
+    "source_folder": "20260514_124237",
+    "eval_file": "2026-05-14T12-42-45+02-00_deliberative-justification-v2-cot_PqfZpL56YsPqpHAij3wt4v.eval",
+    "json_file": "2026-05-14T12-42-45+02-00_deliberative-justification-v2-cot_PqfZpL56YsPqpHAij3wt4v.json",
+    "size_mb": 2.44
+  },
+  {
+    "panel": "cot",
+    "model": "mistral/mistral-large-2512",
+    "task": "deliberative_justification_v2_cot",
+    "created": "2026-05-14T13:18:20",
+    "source_folder": "20260514_131816",
+    "eval_file": "2026-05-14T13-18-20+02-00_deliberative-justification-v2-cot_WnQMYSbs8Vjupd7fWf2tJ3.eval",
+    "json_file": "2026-05-14T13-18-20+02-00_deliberative-justification-v2-cot_WnQMYSbs8Vjupd7fWf2tJ3.json",
+    "size_mb": 2.77
+  },
+  {
+    "panel": "cot",
+    "model": "mistral/mistral-large-2512",
+    "task": "deliberative_justification_v2_cot",
+    "created": "2026-05-14T13:29:46",
+    "source_folder": "20260514_132942",
+    "eval_file": "2026-05-14T13-29-46+02-00_deliberative-justification-v2-cot_eZUBDhKanzfR8WXcoBVEeD.eval",
+    "json_file": "2026-05-14T13-29-46+02-00_deliberative-justification-v2-cot_eZUBDhKanzfR8WXcoBVEeD.json",
+    "size_mb": 2.58
+  },
+  {
+    "panel": "cot",
+    "model": "mistral/mistral-large-2512",
+    "task": "deliberative_justification_v2_cot",
+    "created": "2026-05-14T13:37:16",
+    "source_folder": "20260514_133713",
+    "eval_file": "2026-05-14T13-37-16+02-00_deliberative-justification-v2-cot_LFQzjDJKHNNyhArrHUUzqB.eval",
+    "json_file": "2026-05-14T13-37-16+02-00_deliberative-justification-v2-cot_LFQzjDJKHNNyhArrHUUzqB.json",
+    "size_mb": 2.58
+  },
+  {
+    "panel": "cot",
+    "model": "mistral/mistral-large-2512",
+    "task": "deliberative_justification_v2_cot",
+    "created": "2026-05-15T09:55:40",
+    "source_folder": "20260515_095530",
+    "eval_file": "2026-05-15T09-55-40+02-00_deliberative-justification-v2-cot_D7y2g4VeAUJxJQChYZhYzN.eval",
+    "json_file": "2026-05-15T09-55-40+02-00_deliberative-justification-v2-cot_D7y2g4VeAUJxJQChYZhYzN.json",
+    "size_mb": 2.55
+  },
+  {
+    "panel": "cot",
+    "model": "mistral/mistral-large-2512",
+    "task": "deliberative_justification_v2_cot",
+    "created": "2026-05-15T10:18:14",
+    "source_folder": "20260515_101811",
+    "eval_file": "2026-05-15T10-18-14+02-00_deliberative-justification-v2-cot_e9u5xEDatmemQumAnhTTrQ.eval",
+    "json_file": "2026-05-15T10-18-14+02-00_deliberative-justification-v2-cot_e9u5xEDatmemQumAnhTTrQ.json",
+    "size_mb": 2.38
+  },
+  {
+    "panel": "cot",
+    "model": "mistral/mistral-large-2512",
+    "task": "deliberative_justification_v2_cot",
+    "created": "2026-05-18T22:35:47",
+    "source_folder": "20260518_223536",
+    "eval_file": "2026-05-18T22-35-47+02-00_deliberative-justification-v2-cot_NKH2bazHX2nTe8PwHSmbTK.eval",
+    "json_file": "2026-05-18T22-35-47+02-00_deliberative-justification-v2-cot_NKH2bazHX2nTe8PwHSmbTK.json",
+    "size_mb": 3.02
+  },
+  {
+    "panel": "cot",
+    "model": "mistral/mistral-large-2512",
+    "task": "deliberative_justification_v2_cot",
+    "created": "2026-05-19T02:03:49",
+    "source_folder": "20260519_020344",
+    "eval_file": "2026-05-19T02-03-49+02-00_deliberative-justification-v2-cot_SZqaNX6pgNkkPHsAoCscbA.eval",
+    "json_file": "2026-05-19T02-03-49+02-00_deliberative-justification-v2-cot_SZqaNX6pgNkkPHsAoCscbA.json",
+    "size_mb": 15.06
+  },
+  {
+    "panel": "cot",
+    "model": "mistral/mistral-large-2512",
+    "task": "deliberative_justification_v2_cot",
+    "created": "2026-05-19T16:47:51",
+    "source_folder": "20260519_164736",
+    "eval_file": "2026-05-19T16-47-51+02-00_deliberative-justification-v2-cot_daV23Q9efU2rgtR6Binemp.eval",
+    "json_file": "2026-05-19T16-47-51+02-00_deliberative-justification-v2-cot_daV23Q9efU2rgtR6Binemp.json",
+    "size_mb": 3.11
+  },
+  {
+    "panel": "cot",
+    "model": "mistral/mistral-large-2512",
+    "task": "deliberative_justification_v2_cot",
+    "created": "2026-05-19T22:26:36",
+    "source_folder": "20260519_222630",
+    "eval_file": "2026-05-19T22-26-36+02-00_deliberative-justification-v2-cot_8BNiNvfNZoUxX5tUMvBgiL.eval",
+    "json_file": "2026-05-19T22-26-36+02-00_deliberative-justification-v2-cot_8BNiNvfNZoUxX5tUMvBgiL.json",
+    "size_mb": 47.51
+  },
+  {
+    "panel": "cot",
+    "model": "mistral/mistral-large-2512",
+    "task": "deliberative_justification_v2_cot",
+    "created": "2026-05-20T09:56:27",
+    "source_folder": "20260520_095619",
+    "eval_file": "2026-05-20T09-56-27+02-00_deliberative-justification-v2-cot_6Ahj9jVScoEJmATUhSpHFH.eval",
+    "json_file": "2026-05-20T09-56-27+02-00_deliberative-justification-v2-cot_6Ahj9jVScoEJmATUhSpHFH.json",
+    "size_mb": 47.51
+  },
+  {
+    "panel": "cot",
+    "model": "mistral/mistral-large-2512",
+    "task": "deliberative_justification_v2_cot",
+    "created": "2026-05-20T10:30:58",
+    "source_folder": "20260520_103053",
+    "eval_file": "2026-05-20T10-30-58+02-00_deliberative-justification-v2-cot_dBdFRxGu4dpEHfbV7fWX6M.eval",
+    "json_file": "2026-05-20T10-30-58+02-00_deliberative-justification-v2-cot_dBdFRxGu4dpEHfbV7fWX6M.json",
+    "size_mb": 0.01
+  },
+  {
+    "panel": "cot",
+    "model": "mistral/mistral-large-2512",
+    "task": "deliberative_justification_v2_cot",
+    "created": "2026-05-20T10:31:51",
+    "source_folder": "20260520_103147",
+    "eval_file": "2026-05-20T10-31-51+02-00_deliberative-justification-v2-cot_k3GGQhUZBayeunXCTNxzFf.eval",
+    "json_file": "2026-05-20T10-31-51+02-00_deliberative-justification-v2-cot_k3GGQhUZBayeunXCTNxzFf.json",
+    "size_mb": 109.8
+  }
+]

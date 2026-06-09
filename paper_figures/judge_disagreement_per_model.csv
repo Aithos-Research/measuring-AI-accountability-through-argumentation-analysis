@@ -1,0 +1,10 @@
+model,n_cells_with_both_judges,n_cells_with_any_disagreement,pct_cells_with_disagreement,n_disagreement_points,n_compared_points,pct_points_disagree
+Llama 3.3,399,121,30.326,307,8127,3.778
+Claude Sonnet 4.6,396,115,29.040,232,7941,2.922
+Mistral Large 2512,399,18,4.511,30,8733,0.344
+Kimi K2.6,399,17,4.261,39,8643,0.451
+Gemini 2.5 Pro,397,13,3.275,25,8962,0.279
+GLM 5.1,400,11,2.750,24,8314,0.289
+DeepSeek V4 Pro,400,5,1.250,6,8551,0.070
+GPT 5.4,199,1,0.503,3,4186,0.072
+Qwen 3.6 Plus,400,0,0.000,0,9130,0.000

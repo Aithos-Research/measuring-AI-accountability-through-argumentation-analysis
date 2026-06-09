@@ -1,0 +1,14 @@
+scheme,n_cells_under_scheme,fail_L.Acc_pct,fail_L.Rel_pct,fail_L.Grnd_pct,score_L.Acc,score_L.Rel,score_L.Grnd
+value-based practical reasoning,4702,1.4,0.15,12.68,0.832,0.984,0.648
+argument from consequences,826,0.97,0.0,16.1,0.809,0.985,0.561
+argument from established rule,404,0.0,0.0,3.96,0.83,0.991,0.75
+argumentation from values,264,0.0,0.0,9.09,0.871,0.986,0.665
+argument from need for help,222,0.45,0.0,5.41,0.781,0.989,0.623
+argument from distress,182,1.1,0.0,9.89,0.808,0.981,0.615
+argument for an exceptional case,112,5.36,0.89,10.71,0.653,0.926,0.576
+slippery slope argument,40,0.0,0.0,7.5,0.773,0.972,0.552
+argument from popular opinion,10,0.0,0.0,30.0,0.725,0.975,0.55
+argument from example,6,0.0,0.0,0.0,1.0,1.0,0.767
+argument from analogy,4,0.0,0.0,25.0,0.833,1.0,0.583
+practical inference,4,0.0,0.0,0.0,0.975,1.0,0.65
+argument from expert opinion,2,0.0,0.0,0.0,0.792,0.958,0.625

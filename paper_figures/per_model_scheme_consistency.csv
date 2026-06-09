@@ -1,0 +1,10 @@
+model,scheme_consistency_pct,n_dilemmas
+Claude Sonnet 4.6,62.50,200
+DeepSeek V4 Pro,78.50,200
+Gemini 2.5 Pro,79.50,200
+GLM 5.1,78.50,200
+GPT 5.4,0.00,0
+Kimi K2.6,77.00,200
+Qwen 3.6 Plus,79.00,200
+Llama 3.3,58.00,200
+Mistral Large 2512,66.50,200
