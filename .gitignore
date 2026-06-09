@@ -51,7 +51,8 @@ logs/deliberative_justification_v2/*/reasoning/_no_gpt/
 !logs/deliberative_justification_v2/20260522_combined_9models/
 !logs/deliberative_justification_v2/20260522_combined_9models/**
 
-# Raw Inspect-AI .eval files are NOT tracked here (1.2 GB total).
-# They are available as a GitHub Release artifact: WaltonSchemes_paper_logs.zip
-# and inventoried in eval_files_manifest.json at the repo root.
+# Raw Inspect-AI .eval traces are NOT tracked (1.2 GB).
+# The cleaned, post-curation data is in `samples.json` under each panel and
+# the analysis CSVs/PNGs alongside. Every raw .eval is inventoried in
+# `eval_files_manifest.json` at the repo root so reviewers can trace lineage.
 logs/**/eval_files/

@@ -13,8 +13,11 @@ This repository contains:
 - the scripts used to merge partial runs, rejudge cells, and produce the paper's figures and tables (`scripts/`)
 - the 200-dilemma MoralChoice selection used in the paper (`data/selections/`)
 - the Walton-scheme prompt set (`data/walton_schemes/`)
-- the merged 9-model dataset that produced every paper number (`logs/.../samples.json`)
-- the CSV summary tables and PNG figures the paper renders
+- the merged 9-model dataset that produced every paper number — **reasoning panel** (`logs/.../20260527_combined_panels_curation/reasoning/samples.json`) and **CoT panel** (`logs/.../20260522_combined_9models/cot/samples.json`)
+- the CSV summary tables and PNG figures the paper renders, plus the figure source CSVs (`paper_figures/` and `logs/.../reasoning/figure_data/`)
+- per-judge audit splits (`logs/.../*/by_judge/`) and the GPT-5.4-excluded scheme analyses (`logs/.../reasoning/_no_gpt/`)
+- two representative Inspect-AI `.eval` traces for quick inspection (`examples/`)
+- a provenance manifest of every raw eval file (`eval_files_manifest.json`)
 
 The repository is licensed [MIT](LICENSE).
 
@@ -180,6 +183,17 @@ The paper's analyses were run with the following stack. Versions matter for the 
 - **GPT 5.4's $r_{\mathrm{int}}$ is encrypted ciphertext.** OpenAI returns the reasoning channel as a Fernet blob that judges cannot read. The paper marks GPT 5.4's $r_{\mathrm{int}}$ as NA in Table 1 / Figure 1 and excludes GPT 5.4 from the H2 paired Wilcoxon test, the H3 scheme-distribution / scheme-transitions / per-scheme-retention analyses, and the local-failure-by-scheme heatmap (Figure 3). The exclusion is reproduced by `scripts/filter_gpt_and_replot_schemes.py`, which writes a GPT-filtered copy of `samples.json` to a `_no_gpt/` subdirectory and re-runs the analysis pipeline on it.
 - **Coherence is reported as a diagnostic, not pooled into the global mean.** The `mean_normalized_global_quality` column in `per_model_metrics.csv` averages over acceptability, relevance and sufficiency only; coherence is reported separately in its own column. See `walton_analysis.py` `_GLOBAL_DIMS_NO_COH`.
 - **The hedge-rate Mann–Whitney analysis** (Methods §3.7) is computed with the hedge dictionary in `walton_analysis.py` (or the equivalent appendix regex). To reproduce the hedge buckets and per-model hedge rates, run `python scripts/audit_rejudged_numbers.py`.
+
+## Example eval traces (presentations / quick inspection)
+
+Two small Inspect-AI runs are bundled in [`examples/`](examples/) — one for
+each elicitation regime. Open them in the
+[Inspect-AI web viewer](https://inspect.aisi.org.uk/log-viewer)
+(drag-and-drop, no install) or locally with `inspect view examples/<file>.eval`.
+
+The full 88-file eval set (1.2 GB) is **not** in the git tree; it is published
+as a GitHub Release artifact (`WaltonSchemes_paper_logs.zip`, 553 MB
+compressed) and inventoried in [`eval_files_manifest.json`](eval_files_manifest.json).
 
 ## Citation
 
