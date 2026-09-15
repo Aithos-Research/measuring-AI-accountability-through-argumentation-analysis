@@ -20,6 +20,7 @@ H3  Which Walton schemes occur most in reasoning vs justification.
 
 from __future__ import annotations
 
+import copy
 import json
 import logging
 import os
@@ -58,6 +59,18 @@ _CFG = require_task_config(
     "deliberative_justification_v2",
     required_keys=["limit", "reasoning", "cot", "judge_generate"],
 )
+
+# Whether Phase 3 defends the int (r_r) and ext (r_j) tracks on isolated
+# deep copies of the post-Phase-1 state (default, `True`) or on one shared,
+# mutated state. Under the shared-state behaviour (`False`, the pre-fix
+# default), int is always processed first and ext inherits int's
+# re-injected reasoning and its own already-generated defense as prior
+# conversation turns -- an order/context confound on the H2 reasoning-vs-
+# justification comparison. Set `isolate_defense_tracks: false` in a task
+# config to reproduce the original shared-state behaviour, e.g. for an
+# ablation comparing both settings. See README "Methodological notes" and
+# paper §5.2 "Structural information advantage".
+ISOLATE_DEFENSE_TRACKS = bool(_CFG.get("isolate_defense_tracks", True))
 
 
 def _resolve_phase_judges() -> tuple[List[str], List[str]]:
@@ -903,12 +916,20 @@ async def _run_walton_pipeline(
 
             # Phase 3: target defends its justification.  For r_int we re-inject
             # the reasoning text because native reasoning channels are not part
-            # of the visible conversation history.
+            # of the visible conversation history.  By default (see
+            # ISOLATE_DEFENSE_TRACKS) each track is defended on its own deep
+            # copy of the post-Phase-1 state, not on `state` itself: since
+            # int is always processed before ext in this loop, mutating
+            # `state` in place would let the ext branch inherit the int
+            # branch's re-injected reasoning and its already-generated
+            # defense as prior conversation turns, confounding the reasoning
+            # vs. justification comparison with an order/context effect.
             questions_block = format_questions_block(questions)
             ctx = text if target_label == "int" else None
+            branch_state = copy.deepcopy(state) if ISOLATE_DEFENSE_TRACKS else state
             try:
                 defense_text = await run_phase_answer_questions(
-                    state, generate, questions_block, target_label, context_text=ctx,
+                    branch_state, generate, questions_block, target_label, context_text=ctx,
                 )
             except Exception as exc:
                 logger.warning("Phase 3 failed (%s, %s): %s", jalias, target_label, exc)

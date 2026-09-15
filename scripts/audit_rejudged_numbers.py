@@ -58,7 +58,10 @@ def main():
     rows = []
     for dil in samples["dilemmas"]:
         for tg in dil["targets"]:
+            m = tg["model"].split("/")[-1]
             for tk in tg.get("tracks", []) or []:
+                if m == "gpt-5.4" and tk.get("text_kind") == "reasoning":
+                    continue  # r_int is encrypted ciphertext, unscoreable
                 p2 = (tk.get("phase2", []) or [None])[0]
                 if not p2:
                     continue
@@ -99,7 +102,7 @@ def main():
         print(f"  {b}: n={len(xs)}, med_words={statistics.median(wc):.0f}, med_hedge={statistics.median(hr):.4f}")
     low_g = [r["hedge_rate"] for r in rows if r["bucket_g"] == "LOW"]
     mh_g = [r["hedge_rate"] for r in rows if r["bucket_g"] in ("MID", "HIGH")]
-    u, p = mannwhitneyu(low_g, mh_g, alternative="greater")
+    u, p = mannwhitneyu(low_g, mh_g, alternative="two-sided")
     print(f"  MW U (LOW vs MID+HIGH): p={p:.2e}")
 
     print()
@@ -110,7 +113,7 @@ def main():
         print(f"  {b}: n={len(xs)}, med_hedge={statistics.median(hr):.4f}")
     low_s = [r["hedge_rate"] for r in rows if r["bucket_s"] == "LOW"]
     mh_s = [r["hedge_rate"] for r in rows if r["bucket_s"] in ("MID", "HIGH")]
-    u, p = mannwhitneyu(low_s, mh_s, alternative="greater")
+    u, p = mannwhitneyu(low_s, mh_s, alternative="two-sided")
     print(f"  MW U (LOW vs MID+HIGH): p={p:.2e}")
 
     # ====================================================================
@@ -125,6 +128,8 @@ def main():
             m = tg["model"].split("/")[-1]
             for tk in tg.get("tracks", []) or []:
                 track = tk.get("text_kind")
+                if m == "gpt-5.4" and track == "reasoning":
+                    continue  # r_int is encrypted ciphertext, unscoreable
                 p2 = (tk.get("phase2", []) or [None])[0]
                 if not p2:
                     continue
@@ -158,7 +163,7 @@ def main():
         if m == "claude-sonnet-4-6":
             continue
         rest_hr.extend([r["hedge_rate"] for r in per_m[m]])
-    u, p = mannwhitneyu(claude_hr, rest_hr, alternative="greater")
+    u, p = mannwhitneyu(claude_hr, rest_hr, alternative="two-sided")
     print(f"  Claude vs rest of panel: p={p:.2e}")
 
     # ====================================================================

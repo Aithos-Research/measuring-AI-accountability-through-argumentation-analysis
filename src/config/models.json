@@ -199,6 +199,11 @@
           "alias": "glm_5p1",
           "name": "GLM 5.1",
           "model_id": "fireworks/accounts/fireworks/models/glm-5p1"
+        },
+        {
+          "alias": "glm_5p2",
+          "name": "GLM 5.2",
+          "model_id": "fireworks/accounts/fireworks/models/glm-5p2"
         }
       ]
     },
@@ -266,6 +271,11 @@
           "alias": "qwen3p6_plus",
           "name": "Qwen3.6 Plus",
           "model_id": "fireworks/accounts/fireworks/models/qwen3p6-plus"
+        },
+        {
+          "alias": "qwen3p7_plus",
+          "name": "Qwen 3.7 Plus",
+          "model_id": "fireworks/accounts/fireworks/models/qwen3p7-plus"
         }
       ]
     },

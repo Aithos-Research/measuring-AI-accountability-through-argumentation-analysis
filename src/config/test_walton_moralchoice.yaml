@@ -2,6 +2,7 @@
 
 deliberative_justification_v2:
   variant: open  # or `forced_choice`; CLI: --variant forced_choice
+  isolate_defense_tracks: true  # see experiments_walton_moralchoice.yaml
   judges_phase2: [anthropic_claude_sonnet_46]
   judges_phase4: [openai_gpt55, anthropic_claude_sonnet_46]
   log_formats: [json, eval]
@@ -30,7 +31,7 @@ deliberative_justification_v2:
     # Full 8-model battery from insider-trading run_chem_full_8.sh.
     # NOTE: claude-sonnet-4-6 / gpt-5.4 are also Phase-4 judges -- accepted.
     models: [anthropic_claude_sonnet_46, openai_gpt54, google_gemini_25_pro,
-             mistral_large_2512, glm_5p1, deepseek_v4_pro, kimi_k2p6, qwen3p6_plus]
+             mistral_large_2512, glm_5p2, deepseek_v4_pro, kimi_k2p6, qwen3p7_plus]
     generate:
       # top_p omitted: Anthropic Claude rejects temperature+top_p together with
       # a 400, which silently kills sonnet-4.6 as a target. The judge config

@@ -32,17 +32,17 @@ SCALE_MIN, SCALE_MAX = 1, 3
 SCALE_RANGE = SCALE_MAX - SCALE_MIN
 
 REASONING_PANEL = [
-    ("gpt-5.4", "GPT 5.4"),
     ("claude-sonnet-4-6", "Claude Sonnet 4.6"),
-    ("kimi-k2p6", "Kimi K2.6"),
-    ("qwen3p6-plus", "Qwen 3.6 Plus"),
-    ("glm-5p1", "GLM 5.1"),
     ("deepseek-v4-pro", "DeepSeek V4 Pro"),
     ("gemini-2.5-pro", "Gemini 2.5 Pro"),
+    ("glm-5p1", "GLM 5.1"),
+    ("gpt-5.4", "GPT 5.4"),
+    ("kimi-k2p6", "Kimi K2.6"),
+    ("qwen3p6-plus", "Qwen 3.6 Plus"),
 ]
 COT_PANEL = [
-    ("mistral-large-2512", "Mistral Large 2512"),
     ("Llama 3.3", "Llama 3.3"),
+    ("mistral-large-2512", "Mistral Large 2512"),
 ]
 
 
@@ -129,10 +129,10 @@ def main():
     ext_plot = np.where(np.isnan(ext_arr), 0.0, ext_arr)
 
     ax.bar(x - width / 2, int_plot, width,
-           yerr=int_se, label=r"$r_{\mathrm{int}}$",
+           yerr=int_se, label=r"$r_r$",
            color="#4C7FB6", capsize=2)
     ax.bar(x + width / 2, ext_plot, width,
-           yerr=ext_se, label=r"$r_{\mathrm{ext}}$",
+           yerr=ext_se, label=r"$r_j$",
            color="#E08E45", capsize=2)
 
     # Annotate NA bars

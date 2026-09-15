@@ -19,6 +19,12 @@
 
 deliberative_justification_v2:
   variant: open
+  # Phase 3 defends r_r and r_j on isolated copies of the post-Phase-1
+  # state by default, so neither track sees the other's re-injected text
+  # or defense. Set to `false` to restore the original shared-state
+  # behaviour (int defended first, ext inherits its turns) -- e.g. to
+  # reproduce the pre-fix run, or for an ablation comparing both settings.
+  isolate_defense_tracks: true
   judges_phase2: [anthropic_claude_sonnet_46]
   judges_phase4: [anthropic_claude_sonnet_46, openai_gpt54]
   log_formats: [json, eval]
@@ -41,8 +47,8 @@ deliberative_justification_v2:
       - google_gemini_25_pro
       - deepseek_v4_pro
       - kimi_k2p6
-      - glm_5p1
-      - qwen3p6_plus
+      - glm_5p2
+      - qwen3p7_plus
     generate:
       top_p: 1.0
       max_connections: 10

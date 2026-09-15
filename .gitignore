@@ -37,10 +37,19 @@ Thumbs.db
 .cache_inspect/
 
 # Local exploratory outputs from the analysis pipeline.
-# The canonical paper data is whitelisted below; everything else is ignored.
+# The canonical paper data is whitelisted below; everything else is ignored,
+# including any new timestamped run directory (trial/dev/validation runs,
+# their transcripts and generated reports) not explicitly whitelisted.
 logs/deliberative_justification_v2/_*
 logs/deliberative_justification_v2/*/cot/
 logs/deliberative_justification_v2/*/reasoning/_no_gpt/
+logs/deliberative_justification_v2/2*/
+
+# Raw Inspect-AI eval transcripts and generated analysis reports, wherever
+# they land (not just under logs/) -- these are run outputs, not code.
+*.eval
+report.md
+analysis_summary.txt
 
 # --- whitelist the canonical paper data ---
 # Reasoning panel (post-curation) — includes _no_gpt scheme analyses.
